@@ -35,19 +35,31 @@
 
   "commands": {
     "next-problem": {
-      "suggested_key": { "default": "Alt+N" },
+      "suggested_key": {
+        "default": "Alt+N",
+        "mac": "MacCtrl+N"
+      },
       "description": "Go to next problem"
     },
     "previous-problem": {
-      "suggested_key": { "default": "Alt+P" },
+      "suggested_key": {
+        "default": "Alt+P",
+        "mac": "MacCtrl+P"
+      },
       "description": "Go to previous problem"
     },
     "toggle-solved": {
-      "suggested_key": { "default": "Alt+S" },
+      "suggested_key": {
+        "default": "Alt+M",
+        "mac": "MacCtrl+M"
+      },
       "description": "Toggle solved state"
     },
     "mark-solved": {
-      "suggested_key": { "default": "Alt+Shift+S" },
+      "suggested_key": {
+        "default": "Alt+Shift+M",
+        "mac": "MacCtrl+Shift+M"
+      },
       "description": "Mark as solved"
     }
   }
