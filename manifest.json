@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "name": "Striver A2Z Problem Tracker",
+  "version": "1.0",
+  "description": "Track and navigate Striver A2Z DSA problems with a built-in progress bar and dark mode.",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": [
+    "*://bit.ly/*",
+    "*://*.leetcode.com/*",
+    "*://*.geeksforgeeks.org/*",
+    "*://*.codingninjas.com/*",
+    "*://*.youtube.com/*"
+  ],
+
+  "icons": {
+    "16": "icons/favicon-16x16.png",
+    "32": "icons/favicon-32x32.png",
+    "48": "icons/android-chrome-192x192.png",
+    "128": "icons/android-chrome-192x192.png"
+  },
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/favicon-16x16.png",
+      "32": "icons/favicon-32x32.png",
+      "48": "icons/android-chrome-192x192.png",
+      "128": "icons/android-chrome-192x192.png"
+    }
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "commands": {
+    "next-problem": {
+      "suggested_key": { "default": "Alt+N" },
+      "description": "Go to next problem"
+    },
+    "previous-problem": {
+      "suggested_key": { "default": "Alt+P" },
+      "description": "Go to previous problem"
+    },
+    "toggle-solved": {
+      "suggested_key": { "default": "Alt+S" },
+      "description": "Toggle solved state"
+    },
+    "mark-solved": {
+      "suggested_key": { "default": "Alt+Shift+S" },
+      "description": "Mark as solved"
+    }
+  }
+}
