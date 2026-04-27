@@ -25,8 +25,8 @@ Navigate through the Striver sheet without taking your hands off the keyboard!
 
 - `Alt + N` : Go to the **Next** problem
 - `Alt + P` : Go to the **Previous** problem
-- `Alt + S` : **Toggle** the solved state of the current problem
-- `Alt + Shift + S` : Explicitly **Mark as solved**
+- `Alt + M` : **Toggle** the solved state of the current problem
+- `Alt + Shift + M` : Explicitly **Mark as solved**
 
 _(Note: On Mac, use the `Option` key instead of `Alt`)_
 
