@@ -30,16 +30,16 @@ Navigate through the Striver sheet without taking your hands off the keyboard!
 
 _(Note: On Mac, use the `Option` key instead of `Alt`)_
 
-## 🛠️ Installation (Developer Mode)
+## 🛠️ Installation (Manual)
 
-While this extension is pending approval on the Chrome Web Store, you can install it manually in seconds:
+While this extension is pending approval on the Chrome Web Store, you can easily install the latest version manually in seconds:
 
-1. **Download the code:** Click the green **Code** button at the top of this repository and select **Download ZIP**. (Or clone the repository via terminal).
+1. **Download the Release:** Go to the [Releases page](../../releases/latest) on the right side of this repository and download the latest `.zip` file (e.g., `striver-extension-v1.0.zip`).
 2. **Extract the folder:** Unzip the downloaded file to an easily accessible location on your computer.
-3. **Open Chrome Extensions:** Open Google Chrome and navigate to `chrome://extensions/`.
+3. **Open Chrome Extensions:** Open Google Chrome and type `chrome://extensions/` into your address bar, then hit Enter.
 4. **Enable Developer Mode:** Toggle the **Developer mode** switch in the top right corner to ON.
 5. **Load the Extension:** Click the **Load unpacked** button that appears in the top left corner.
-6. **Select the Folder:** Browse to where you extracted the code, select the folder, and click open.
+6. **Select the Folder:** Browse to the folder you extracted in Step 2, select it, and click "Select Folder".
 
 _Tip: Click the puzzle piece icon in Chrome to pin the tracker to your toolbar for easy access!_
 
