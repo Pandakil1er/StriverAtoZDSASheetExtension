@@ -61,6 +61,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License.
 
 _(Note: This license applies only to the code of this extension, not the curated dataset of problems which belongs to TakeUForward)._
