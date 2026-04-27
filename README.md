@@ -43,12 +43,6 @@ While this extension is pending approval on the Chrome Web Store, you can instal
 
 _Tip: Click the puzzle piece icon in Chrome to pin the tracker to your toolbar for easy access!_
 
-## 💻 Tech Stack
-
-- **HTML5 / CSS3:** Utilizing CSS variables for seamless theme switching.
-- **Vanilla JavaScript:** Fast, dependency-free DOM manipulation and state management.
-- **Chrome Extension API:** Utilizing `chrome.storage.local` for persistence and `chrome.tabs` for navigation.
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page. If you want to add new features or fix a bug:
