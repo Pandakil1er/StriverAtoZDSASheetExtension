@@ -131,6 +131,23 @@ function loadState() {
     },
   );
 }
+// Listen for keyboard shortcuts from manifest.json
+chrome.commands.onCommand.addListener((command) => {
+  if (command === "next-problem") {
+    nextProblem();
+  } else if (command === "previous-problem") {
+    prevProblem();
+  } else if (command === "toggle-solved") {
+    toggleSolved(currentIndex);
+  } else if (command === "mark-solved") {
+    const key = filtered[currentIndex]?.Link;
+    if (key && !solved.has(key)) {
+      solved.add(key);
+      saveState();
+      notify();
+    }
+  }
+});
 
 // Notify popup & update icon
 function notify() {
